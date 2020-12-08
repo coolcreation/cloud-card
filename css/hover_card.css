@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/*
+    Student Name: Jeff Bohn
+    Date: 12/7/2020
+    "Hover Card" assignment
+*/
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: lightblue;
+    text-align: center;
+    margin: 6em;
+  }
+.bg-dark-color{
+    background-color: #484848;
+}
+
+/* Project CSS */
+
+  .square{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: white;
+      padding: 30px;
+      color: black;
+      font-size: 22px;
+      height: 500px;
+      width: 500px;
+      border: darkblue 10px solid;
+      border-radius: 2%;
+      cursor: pointer; 
+      transition: background 3s, transform 1s 1s ease-in;  /*liner, ease-in, ease-out (last number is timing function) */
+  }
+  p{
+      padding: 30px;
+  }
+  .square:hover{
+      background: rgb(228, 130, 2);
+      color: lime;
+      transform: rotate(360deg);
+  }
+
+
+
+
+/* Media Query for Tablet Viewport */
+@media (min-width: 768px) { 
+
+
+
+}
+
+/* Media Query for Desktop Viewport */
+@media (min-width: 992px) { 
+    
+   
+    
+
+}
